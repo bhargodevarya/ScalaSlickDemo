@@ -34,7 +34,7 @@ buildscript {
     }
 
     bootRepackage {
-         mainClass = "com.bhargo.bootstrap.ScalaMain"
+         mainClass = "com.bhargo.ScalaMain"
     }
 
     dependencies {
