@@ -44,6 +44,9 @@ buildscript {
         compile group: 'org.springframework.boot', name: 'spring-boot', version: '1.5.2.RELEASE'
         // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter
         compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '1.5.2.RELEASE'
+        // https://mvnrepository.com/artifact/org.springframework/spring-web
+        compile group: 'org.springframework', name: 'spring-web', version: '4.3.7.RELEASE'
+        compile("org.springframework.boot:spring-boot-starter-web")
         // https://mvnrepository.com/artifact/com.typesafe.slick/slick_2.11
         compile group: 'com.typesafe.slick', name: 'slick_2.11', version: '3.2.0'
         // Use Scalatest for testing our library

@@ -10,12 +10,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
   */
 
 @SpringBootApplication
-class ScalaMain @Autowired() (util:UtilService) extends CommandLineRunner{
+class ScalaMain @Autowired() (util:UtilService) /*extends CommandLineRunner*/{
 
-  override def run(args: String*): Unit = {
+  /*override def run(args: String*): Unit = {
     println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     util.sayHello
-  }
+  }*/
 }
 object ScalaMain {
     def main(args: Array[String]): Unit = {
